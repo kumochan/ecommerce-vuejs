@@ -223,6 +223,7 @@
             <!-- [ navigation menu ] end -->
             <div class="pcoded-content">
               <MainComponent></MainComponent>
+              <ChatContainer></ChatContainer>
             </div>
             <!-- [ style Customizer ] start -->
             <div id="styleSelector"></div>
@@ -238,13 +239,14 @@
 import NavbarComponent from "@/views/Layouts/NavbarComponent";
 import SlidebarComponent from "@/views/Layouts/SlidebarComponent";
 import MainComponent from "@/views/Layouts/MainComponent";
-
+import ChatContainer from '../components/Chat';
 export default {
   name: "Home",
   components: {
     NavbarComponent,
     SlidebarComponent,
     MainComponent,
+    ChatContainer,
   },
 };
 </script>
